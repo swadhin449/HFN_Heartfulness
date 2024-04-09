@@ -1,0 +1,467 @@
+2023-06-27 10:00:03:899 [Appium] Welcome to Appium v2.0.0-beta.57 (REV 4446fe603cc19316036fd07e5df1124c4d15ead2)
+2023-06-27 10:00:03:900 [Appium] Non-default server args:
+2023-06-27 10:00:03:900 [Appium] { port: 22422, sessionOverride: true }
+2023-06-27 10:00:03:901 [Appium] Attempting to load driver xcuitest...
+2023-06-27 10:00:03:902 [Appium] Requiring driver at /Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver
+2023-06-27 10:00:04:450 [Appium] Attempting to load driver uiautomator2...
+2023-06-27 10:00:04:451 [Appium] Requiring driver at /Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver
+2023-06-27 10:00:04:942 [Appium] Attempting to load driver safari...
+2023-06-27 10:00:04:943 [Appium] Requiring driver at /Users/codeprismtechnologies/.appium/node_modules/appium-safari-driver
+2023-06-27 10:00:05:041 [Appium] Appium REST http interface listener started on 0.0.0.0:22422
+2023-06-27 10:00:05:041 [Appium] Available drivers:
+2023-06-27 10:00:05:041 [Appium]   - xcuitest@4.19.0 (automationName 'XCUITest')
+2023-06-27 10:00:05:042 [Appium]   - uiautomator2@2.12.6 (automationName 'UiAutomator2')
+2023-06-27 10:00:05:042 [Appium]   - safari@3.3.2 (automationName 'Safari')
+2023-06-27 10:00:05:042 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2023-06-27 10:00:05:124 [HTTP] --> GET /status
+2023-06-27 10:00:05:125 [HTTP] {}
+2023-06-27 10:00:05:125 [AppiumDriver@1658] Calling AppiumDriver.getStatus() with args: []
+2023-06-27 10:00:05:127 [AppiumDriver@1658] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.57","git-sha":"4446fe603cc19316036fd07e5df1124c4d15ead2","built":"2023-05-22 09:21:09 +0200"}}
+2023-06-27 10:00:05:129 [HTTP] <-- GET /status 200 4 ms - 136
+2023-06-27 10:00:05:130 [HTTP] 
+2023-06-27 10:00:05:131 [HTTP] --> GET /status
+2023-06-27 10:00:05:131 [HTTP] {}
+2023-06-27 10:00:05:131 [AppiumDriver@1658] Calling AppiumDriver.getStatus() with args: []
+2023-06-27 10:00:05:131 [AppiumDriver@1658] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.57","git-sha":"4446fe603cc19316036fd07e5df1124c4d15ead2","built":"2023-05-22 09:21:09 +0200"}}
+2023-06-27 10:00:05:132 [HTTP] <-- GET /status 200 1 ms - 136
+2023-06-27 10:00:05:132 [HTTP] 
+2023-06-27 10:00:05:145 [HTTP] Request idempotency key: c21e2b65-d4e6-46c4-9d9a-df8b19a0e32c
+2023-06-27 10:00:05:152 [HTTP] --> POST /session
+2023-06-27 10:00:05:152 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Volumes/codeprism/CodePrism Projects/heartintune-app-automationtestcases/src/test/resources/apps/app.ipa","appium:automationName":"XCUITest","appium:bundleId":"org.heartfulness.heartintune.qa","appium:deviceName":"iPhone SE","appium:udid":"00008030-000A2C6A1AFB802E","appium:wdaLocalPort":"10001","appium:webkitDebugProxyPort":"11001","appium:xcodeOrgId":"FVSWHZ399Q","appium:xcodeSigningId":"iPhone Developer","platformName":"ios"}}}
+2023-06-27 10:00:05:153 [AppiumDriver@1658] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Volumes/codeprism/CodePrism Projects/heartintune-app-automationtestcases/src/test/resources/apps/app.ipa","appium:automationName":"XCUITest","appium:bundleId":"org.heartfulness.heartintune.qa","appium:deviceName":"iPhone SE","appium:udid":"00008030-000A2C6A1AFB802E","appium:wdaLocalPort":"10001","appium:webkitDebugProxyPort":"11001","appium:xcodeOrgId":"FVSWHZ399Q","appium:xcodeSigningId":"iPhone Developer","platformName":"ios"}}]
+2023-06-27 10:00:05:153 [AppiumDriver@1658] Event 'newSessionRequested' logged at 1687860005153 (15:30:05 GMT+0530 (India Standard Time))
+2023-06-27 10:00:05:155 [Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+2023-06-27 10:00:05:155 [Appium] The 'xcuitest' driver was installed and matched caps.
+2023-06-27 10:00:05:155 [Appium] Will require it at /Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver
+2023-06-27 10:00:05:155 [Appium] Requiring driver at /Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver
+2023-06-27 10:00:05:155 [AppiumDriver@1658] Appium v2.0.0-beta.57 creating new XCUITestDriver (v4.19.0) session
+2023-06-27 10:00:05:155 [AppiumDriver@1658] Checking BaseDriver versions for Appium and XCUITestDriver
+2023-06-27 10:00:05:155 [AppiumDriver@1658] Appium's BaseDriver version is 9.3.3
+2023-06-27 10:00:05:155 [AppiumDriver@1658] XCUITestDriver's BaseDriver version is 9.3.3
+2023-06-27 10:00:05:155 [AppiumDriver@1658] There are no active sessions for cleanup
+2023-06-27 10:00:05:156 [XCUITestDriver@1407] Creating session with W3C capabilities: {
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]   "alwaysMatch": {
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "platformName": "ios",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:app": "/Volumes/codeprism/CodePrism Projects/heartintune-app-automationtestcases/src/test/resources/apps/app.ipa",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:automationName": "XCUITest",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:bundleId": "org.heartfulness.heartintune.qa",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:deviceName": "iPhone SE",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:udid": "00008030-000A2C6A1AFB802E",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:wdaLocalPort": "10001",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:webkitDebugProxyPort": "11001",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:xcodeOrgId": "FVSWHZ399Q",
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     "appium:xcodeSigningId": "iPhone Developer"
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]   },
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]   "firstMatch": [
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]     {}
+2023-06-27 10:00:05:157 [XCUITestDriver@1407]   ]
+2023-06-27 10:00:05:157 [XCUITestDriver@1407] }
+2023-06-27 10:00:05:158 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-06-27 10:00:05:159 [XCUITestDriver@1407] Capability 'wdaLocalPort' changed from string ('10001') to integer (10001). This may cause unexpected behavior
+2023-06-27 10:00:05:160 [XCUITestDriver@1407] The following capabilities were provided, but are not recognized by Appium:
+2023-06-27 10:00:05:161 [XCUITestDriver@1407]   webkitDebugProxyPort
+2023-06-27 10:00:05:161 [XCUITestDriver@1407] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2023-06-27 10:00:05:161 [XCUITestDriver@1407 (c4c8fe94)] Session created with session id: c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:00:05:169 [XCUITest] Current user: 'codeprismtechnologies'
+2023-06-27 10:00:05:176 [XCUITestDriver@1407 (c4c8fe94)] Available devices: 00008030-000A2C6A1AFB802E
+2023-06-27 10:00:05:176 [XCUITest] Creating iDevice object with udid '00008030-000A2C6A1AFB802E'
+2023-06-27 10:00:05:176 [XCUITestDriver@1407 (c4c8fe94)] Determining device to run tests on: udid: '00008030-000A2C6A1AFB802E', real device: true
+2023-06-27 10:00:05:233 [XCUITestDriver@1407 (c4c8fe94)] No platformVersion specified. Using device version: '16.5.1'
+2023-06-27 10:00:05:234 [XCUITestDriver@1407 (c4c8fe94)] Normalized platformVersion capability value '16.5.1' to '16.5'
+2023-06-27 10:00:05:248 [XCUITestDriver@1407 (c4c8fe94)] Event 'xcodeDetailsRetrieved' logged at 1687860005248 (15:30:05 GMT+0530 (India Standard Time))
+2023-06-27 10:00:05:251 [BaseDriver] Using local app '/Volumes/codeprism/CodePrism Projects/heartintune-app-automationtestcases/src/test/resources/apps/app.ipa'
+2023-06-27 10:00:05:302 [Support] Found 'unzip' at '/usr/bin/unzip'
+2023-06-27 10:00:06:030 [XCUITestDriver@1407 (c4c8fe94)] Found 1 bundle in 'app.ipa': Payload/Runner.app
+2023-06-27 10:00:06:033 [XCUITestDriver@1407 (c4c8fe94)] 'Payload/Runner.app' is the resulting application bundle selected from '/Volumes/codeprism/CodePrism Projects/heartintune-app-automationtestcases/src/test/resources/apps/app.ipa'
+2023-06-27 10:00:06:060 [XCUITestDriver@1407 (c4c8fe94)] Event 'appConfigured' logged at 1687860006060 (15:30:06 GMT+0530 (India Standard Time))
+2023-06-27 10:00:06:060 [XCUITest] Checking whether app '/var/folders/wt/9vslldzn71772_6xt62mh3cc0000gn/T/2023527-4525-17bz58z.6zwf/Runner.app' is actually present on file system
+2023-06-27 10:00:06:060 [XCUITest] App is present
+2023-06-27 10:00:06:060 [XCUITestDriver@1407 (c4c8fe94)] Event 'resetStarted' logged at 1687860006060 (15:30:06 GMT+0530 (India Standard Time))
+2023-06-27 10:00:06:060 [XCUITest] Reset: running ios real device reset flow
+2023-06-27 10:00:06:060 [XCUITestDriver@1407 (c4c8fe94)] Event 'resetComplete' logged at 1687860006060 (15:30:06 GMT+0530 (India Standard Time))
+2023-06-27 10:00:06:061 [XCUITestDriver@1407 (c4c8fe94)] Using WDA path: '/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+2023-06-27 10:00:06:061 [XCUITestDriver@1407 (c4c8fe94)] Using WDA agent: '/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2023-06-27 10:00:06:238 [XCUITest] Crash reports root '/Users/codeprismtechnologies/Library/Logs/CrashReporter/MobileDevice/iPhone SE' does not exist. Got nothing to gather.
+2023-06-27 10:00:06:238 [XCUITestDriver@1407 (c4c8fe94)] Event 'logCaptureStarted' logged at 1687860006238 (15:30:06 GMT+0530 (India Standard Time))
+2023-06-27 10:00:06:238 [XCUITestDriver@1407 (c4c8fe94)] Setting up real device
+2023-06-27 10:00:06:238 [XCUITest] Verifying application platform
+2023-06-27 10:00:06:239 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneOS"]
+2023-06-27 10:00:06:559 [XCUITest] Reset requested. Removing app with id 'org.heartfulness.heartintune.qa' from the device
+2023-06-27 10:00:06:818 [XCUITest] Installing '/var/folders/wt/9vslldzn71772_6xt62mh3cc0000gn/T/2023527-4525-17bz58z.6zwf/Runner.app' on device with UUID '00008030-000A2C6A1AFB802E'...
+2023-06-27 10:00:06:818 [XCUITest] Using 'serial' app deployment strategy. You could change it by providing another value to the 'appInstallStrategy' capability
+2023-06-27 10:00:06:924 [XCUITest] Getting bundle ID from app '/var/folders/wt/9vslldzn71772_6xt62mh3cc0000gn/T/2023527-4525-17bz58z.6zwf/Runner.app': 'org.heartfulness.heartintune.qa'
+2023-06-27 10:00:06:965 [XCUITest] Successfully scanned the tree structure of '/var/folders/wt/9vslldzn71772_6xt62mh3cc0000gn/T/2023527-4525-17bz58z.6zwf/Runner.app'
+2023-06-27 10:00:06:967 [XCUITest] Got 258 folders and 1031 files to push
+2023-06-27 10:00:07:100 [XCUITest] Successfully created the remote folder structure (259 items)
+2023-06-27 10:00:07:100 [XCUITest] Proceeding to serial files push
+2023-06-27 10:00:08:365 [XCUITestDriver@1407 (c4c8fe94)] Parsed BUILD_DIR configuration value: '/Users/codeprismtechnologies/Library/Developer/Xcode/DerivedData/WebDriverAgent-dsrbtxgqjkkspsejsdoqdeajpmij/Build/Products'
+2023-06-27 10:00:08:365 [XCUITestDriver@1407 (c4c8fe94)] Got derived data root: '/Users/codeprismtechnologies/Library/Developer/Xcode/DerivedData/WebDriverAgent-dsrbtxgqjkkspsejsdoqdeajpmij'
+2023-06-27 10:00:17:768 [XCUITest] Successfully pushed 258 folders and 1031 files within 10844ms
+2023-06-27 10:00:18:172 [XCUITest] A new application installation is going to be performed
+2023-06-27 10:00:20:982 [XCUITest] App installation succeeded after 14164ms
+2023-06-27 10:00:20:982 [XCUITest] The app has been installed successfully.
+2023-06-27 10:00:20:982 [XCUITestDriver@1407 (c4c8fe94)] Event 'appInstalled' logged at 1687860020982 (15:30:20 GMT+0530 (India Standard Time))
+2023-06-27 10:00:21:025 [XCUITestDriver@1407 (c4c8fe94)] No obsolete cached processes from previous WDA sessions listening on port 10001 have been found
+2023-06-27 10:00:21:025 [DevCon Factory] Requesting connection for device 00008030-000A2C6A1AFB802E on local port 10001, device port 10001
+2023-06-27 10:00:21:025 [DevCon Factory] Cached connections count: 0
+2023-06-27 10:00:21:027 [DevCon Factory] Successfully requested the connection for 00008030-000A2C6A1AFB802E:10001
+2023-06-27 10:00:21:028 [XCUITestDriver@1407 (c4c8fe94)] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2023-06-27 10:00:21:029 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-06-27 10:00:21:029 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10001/status] with no body
+2023-06-27 10:00:21:038 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.4","version":"16.5.1"},"ios":{"ip":"192.168.0.198"},"ready":true,"build":{"upgradedAt":"1678341258313","time":"Jun 27 2023 15:29:10","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] Upgrade timestamp of the currently bundled WDA: 1678341258313
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] Upgrade timestamp of the WDA on the device: 1678341258313
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] Will reuse previously cached WDA instance at 'http://127.0.0.1:10001/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 10001 if this is an undesired behavior.
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] Trying to start WebDriverAgent 1 times with 10000ms interval
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] Event 'wdaStartAttempted' logged at 1687860021039 (15:30:21 GMT+0530 (India Standard Time))
+2023-06-27 10:00:21:039 [XCUITestDriver@1407 (c4c8fe94)] Using provided WebdriverAgent at 'http://127.0.0.1:10001/'
+2023-06-27 10:00:21:039 [WD Proxy] Matched '/status' to command name 'getStatus'
+2023-06-27 10:00:21:039 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10001/status] with no body
+2023-06-27 10:00:21:043 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.4","version":"16.5.1"},"ios":{"ip":"192.168.0.198"},"ready":true,"build":{"upgradedAt":"1678341258313","time":"Jun 27 2023 15:29:10","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2023-06-27 10:00:21:043 [XCUITestDriver@1407 (c4c8fe94)] Event 'wdaSessionAttempted' logged at 1687860021043 (15:30:21 GMT+0530 (India Standard Time))
+2023-06-27 10:00:21:043 [XCUITestDriver@1407 (c4c8fe94)] Sending createSession command to WDA
+2023-06-27 10:00:21:044 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session' to command name 'createSession'
+2023-06-27 10:00:21:044 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /session] to [POST http://127.0.0.1:10001/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"org.heartfulness.heartintune.qa","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+2023-06-27 10:00:25:924 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":{"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639","capabilities":{"device":"iphone","browserName":" ","sdkVersion":"16.5.1","CFBundleIdentifier":"com.apple.springboard"}},"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:25:924 [XCUITestDriver@1407 (c4c8fe94)] Determined the downstream protocol as 'W3C'
+2023-06-27 10:00:25:925 [XCUITestDriver@1407 (c4c8fe94)] Event 'wdaSessionStarted' logged at 1687860025924 (15:30:25 GMT+0530 (India Standard Time))
+2023-06-27 10:00:25:925 [XCUITestDriver@1407 (c4c8fe94)] Event 'wdaStarted' logged at 1687860025925 (15:30:25 GMT+0530 (India Standard Time))
+2023-06-27 10:00:25:926 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2023-06-27 10:00:25:926 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2023-06-27 10:00:25:927 [AppiumDriver@1658] New XCUITestDriver session created successfully, session c4c8fe94-aede-470b-be03-b2524046122a added to master session list
+2023-06-27 10:00:25:928 [AppiumDriver@1658] Event 'newSessionStarted' logged at 1687860025928 (15:30:25 GMT+0530 (India Standard Time))
+2023-06-27 10:00:25:929 [XCUITestDriver@1407 (c4c8fe94)] Cached the protocol value 'W3C' for the new session c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:00:25:930 [XCUITestDriver@1407 (c4c8fe94)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","app":"/Volumes/codeprism/CodePrism Projects/heartintune-app-automationtestcases/src/test/resources/apps/app.ipa","automationName":"XCUITest","bundleId":"org.heartfulness.heartintune.qa","deviceName":"iPhone SE","udid":"00008030-000A2C6A1AFB802E","wdaLocalPort":10001,"webkitDebugProxyPort":"11001","xcodeOrgId":"FVSWHZ399Q","xcodeSigningId":"iPhone Developer"}}
+2023-06-27 10:00:25:933 [HTTP] <-- POST /session 200 20779 ms - 657
+2023-06-27 10:00:25:933 [HTTP] 
+2023-06-27 10:00:35:966 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element
+2023-06-27 10:00:35:966 [HTTP] {"using":"accessibility id","value":"Continue with Google"}
+2023-06-27 10:00:35:969 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.findElement() with args: ["accessibility id","Continue with Google","c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:00:35:969 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'findElement'
+2023-06-27 10:00:35:970 [XCUITestDriver@1407 (c4c8fe94)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2023-06-27 10:00:35:970 [XCUITestDriver@1407 (c4c8fe94)] Waiting up to 0 ms for condition
+2023-06-27 10:00:35:973 [XCUITestDriver@1407 (c4c8fe94)] Matched '/element' to command name 'findElement'
+2023-06-27 10:00:35:973 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /element] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element] with body: {"using":"accessibility id","value":"Continue with Google"}
+2023-06-27 10:00:36:186 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":{"ELEMENT":"1F000000-0000-0000-9904-000000000000","element-6066-11e4-a52e-4f735466cecf":"1F000000-0000-0000-9904-000000000000"},"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:36:187 [XCUITestDriver@1407 (c4c8fe94)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1F000000-0000-0000-9904-000000000000","ELEMENT":"1F000000-0000-0000-9904-000000000000"}
+2023-06-27 10:00:36:188 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element 200 222 ms - 137
+2023-06-27 10:00:36:188 [HTTP] 
+2023-06-27 10:00:36:195 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/1F000000-0000-0000-9904-000000000000/click
+2023-06-27 10:00:36:195 [HTTP] {"id":"1F000000-0000-0000-9904-000000000000"}
+2023-06-27 10:00:36:197 [XCUITestDriver@1407 (c4c8fe94)] Driver proxy active, passing request on via HTTP proxy
+2023-06-27 10:00:36:197 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'proxyReqRes'
+2023-06-27 10:00:36:198 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session/c4c8fe94-aede-470b-be03-b2524046122a/element/1F000000-0000-0000-9904-000000000000/click' to command name 'click'
+2023-06-27 10:00:36:198 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/1F000000-0000-0000-9904-000000000000/click] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element/1F000000-0000-0000-9904-000000000000/click] with body: {"id":"1F000000-0000-0000-9904-000000000000"}
+2023-06-27 10:00:36:698 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":null,"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:36:698 [XCUITestDriver@1407 (c4c8fe94)] Replacing sessionId 42857ED4-A45C-4F63-AE02-7B6316A46639 with c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:00:36:699 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/1F000000-0000-0000-9904-000000000000/click 200 504 ms - 65
+2023-06-27 10:00:36:699 [HTTP] 
+2023-06-27 10:00:38:709 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element
+2023-06-27 10:00:38:709 [HTTP] {"using":"accessibility id","value":"Continue"}
+2023-06-27 10:00:38:710 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.findElement() with args: ["accessibility id","Continue","c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:00:38:710 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'findElement'
+2023-06-27 10:00:38:710 [XCUITestDriver@1407 (c4c8fe94)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2023-06-27 10:00:38:710 [XCUITestDriver@1407 (c4c8fe94)] Waiting up to 0 ms for condition
+2023-06-27 10:00:38:711 [XCUITestDriver@1407 (c4c8fe94)] Matched '/element' to command name 'findElement'
+2023-06-27 10:00:38:711 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /element] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element] with body: {"using":"accessibility id","value":"Continue"}
+2023-06-27 10:00:39:068 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":{"ELEMENT":"83000000-0000-0000-2200-000000000000","element-6066-11e4-a52e-4f735466cecf":"83000000-0000-0000-2200-000000000000"},"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:39:069 [XCUITestDriver@1407 (c4c8fe94)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"83000000-0000-0000-2200-000000000000","ELEMENT":"83000000-0000-0000-2200-000000000000"}
+2023-06-27 10:00:39:070 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element 200 361 ms - 137
+2023-06-27 10:00:39:070 [HTTP] 
+2023-06-27 10:00:39:075 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/83000000-0000-0000-2200-000000000000/click
+2023-06-27 10:00:39:075 [HTTP] {"id":"83000000-0000-0000-2200-000000000000"}
+2023-06-27 10:00:39:076 [XCUITestDriver@1407 (c4c8fe94)] Driver proxy active, passing request on via HTTP proxy
+2023-06-27 10:00:39:076 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'proxyReqRes'
+2023-06-27 10:00:39:077 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session/c4c8fe94-aede-470b-be03-b2524046122a/element/83000000-0000-0000-2200-000000000000/click' to command name 'click'
+2023-06-27 10:00:39:077 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/83000000-0000-0000-2200-000000000000/click] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element/83000000-0000-0000-2200-000000000000/click] with body: {"id":"83000000-0000-0000-2200-000000000000"}
+2023-06-27 10:00:39:869 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":null,"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:39:869 [XCUITestDriver@1407 (c4c8fe94)] Replacing sessionId 42857ED4-A45C-4F63-AE02-7B6316A46639 with c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:00:39:870 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/83000000-0000-0000-2200-000000000000/click 200 795 ms - 65
+2023-06-27 10:00:39:870 [HTTP] 
+2023-06-27 10:00:42:881 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element
+2023-06-27 10:00:42:881 [HTTP] {"using":"accessibility id","value":"Noel Reddy noel.reddy@codeprism.in"}
+2023-06-27 10:00:42:882 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.findElement() with args: ["accessibility id","Noel Reddy noel.reddy@codeprism.in","c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:00:42:882 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'findElement'
+2023-06-27 10:00:42:882 [XCUITestDriver@1407 (c4c8fe94)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2023-06-27 10:00:42:882 [XCUITestDriver@1407 (c4c8fe94)] Waiting up to 0 ms for condition
+2023-06-27 10:00:42:884 [XCUITestDriver@1407 (c4c8fe94)] Matched '/element' to command name 'findElement'
+2023-06-27 10:00:42:885 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /element] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element] with body: {"using":"accessibility id","value":"Noel Reddy noel.reddy@codeprism.in"}
+2023-06-27 10:00:43:434 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":{"ELEMENT":"1E000000-0000-0000-9F04-000000000000","element-6066-11e4-a52e-4f735466cecf":"1E000000-0000-0000-9F04-000000000000"},"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:43:434 [XCUITestDriver@1407 (c4c8fe94)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1E000000-0000-0000-9F04-000000000000","ELEMENT":"1E000000-0000-0000-9F04-000000000000"}
+2023-06-27 10:00:43:435 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element 200 554 ms - 137
+2023-06-27 10:00:43:435 [HTTP] 
+2023-06-27 10:00:43:439 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/1E000000-0000-0000-9F04-000000000000/click
+2023-06-27 10:00:43:440 [HTTP] {"id":"1E000000-0000-0000-9F04-000000000000"}
+2023-06-27 10:00:43:440 [XCUITestDriver@1407 (c4c8fe94)] Driver proxy active, passing request on via HTTP proxy
+2023-06-27 10:00:43:440 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'proxyReqRes'
+2023-06-27 10:00:43:441 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session/c4c8fe94-aede-470b-be03-b2524046122a/element/1E000000-0000-0000-9F04-000000000000/click' to command name 'click'
+2023-06-27 10:00:43:441 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/1E000000-0000-0000-9F04-000000000000/click] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element/1E000000-0000-0000-9F04-000000000000/click] with body: {"id":"1E000000-0000-0000-9F04-000000000000"}
+2023-06-27 10:00:44:278 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":null,"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:00:44:278 [XCUITestDriver@1407 (c4c8fe94)] Replacing sessionId 42857ED4-A45C-4F63-AE02-7B6316A46639 with c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:00:44:279 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/1E000000-0000-0000-9F04-000000000000/click 200 839 ms - 65
+2023-06-27 10:00:44:279 [HTTP] 
+2023-06-27 10:01:04:302 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element
+2023-06-27 10:01:04:302 [HTTP] {"using":"-ios class chain","value":"**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]"}
+2023-06-27 10:01:04:302 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.findElement() with args: ["-ios class chain","**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]","c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:01:04:303 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'findElement'
+2023-06-27 10:01:04:303 [XCUITestDriver@1407 (c4c8fe94)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2023-06-27 10:01:04:303 [XCUITestDriver@1407 (c4c8fe94)] Waiting up to 0 ms for condition
+2023-06-27 10:01:04:305 [XCUITestDriver@1407 (c4c8fe94)] Matched '/element' to command name 'findElement'
+2023-06-27 10:01:04:305 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /element] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element] with body: {"using":"class chain","value":"**/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]"}
+2023-06-27 10:01:04:794 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":{"ELEMENT":"44000000-0000-0000-9904-000000000000","element-6066-11e4-a52e-4f735466cecf":"44000000-0000-0000-9904-000000000000"},"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:01:04:795 [XCUITestDriver@1407 (c4c8fe94)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"44000000-0000-0000-9904-000000000000","ELEMENT":"44000000-0000-0000-9904-000000000000"}
+2023-06-27 10:01:04:795 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element 200 493 ms - 137
+2023-06-27 10:01:04:795 [HTTP] 
+2023-06-27 10:01:04:798 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/44000000-0000-0000-9904-000000000000/click
+2023-06-27 10:01:04:798 [HTTP] {"id":"44000000-0000-0000-9904-000000000000"}
+2023-06-27 10:01:04:799 [XCUITestDriver@1407 (c4c8fe94)] Driver proxy active, passing request on via HTTP proxy
+2023-06-27 10:01:04:799 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'proxyReqRes'
+2023-06-27 10:01:04:799 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session/c4c8fe94-aede-470b-be03-b2524046122a/element/44000000-0000-0000-9904-000000000000/click' to command name 'click'
+2023-06-27 10:01:04:799 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/44000000-0000-0000-9904-000000000000/click] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element/44000000-0000-0000-9904-000000000000/click] with body: {"id":"44000000-0000-0000-9904-000000000000"}
+2023-06-27 10:01:05:221 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":null,"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:01:05:221 [XCUITestDriver@1407 (c4c8fe94)] Replacing sessionId 42857ED4-A45C-4F63-AE02-7B6316A46639 with c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:01:05:223 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/44000000-0000-0000-9904-000000000000/click 200 424 ms - 65
+2023-06-27 10:01:05:223 [HTTP] 
+2023-06-27 10:01:10:236 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element
+2023-06-27 10:01:10:236 [HTTP] {"using":"accessibility id","value":"Delete Account"}
+2023-06-27 10:01:10:237 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.findElement() with args: ["accessibility id","Delete Account","c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:01:10:237 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'findElement'
+2023-06-27 10:01:10:237 [XCUITestDriver@1407 (c4c8fe94)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2023-06-27 10:01:10:237 [XCUITestDriver@1407 (c4c8fe94)] Waiting up to 0 ms for condition
+2023-06-27 10:01:10:238 [XCUITestDriver@1407 (c4c8fe94)] Matched '/element' to command name 'findElement'
+2023-06-27 10:01:10:238 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /element] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element] with body: {"using":"accessibility id","value":"Delete Account"}
+2023-06-27 10:01:10:485 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":{"ELEMENT":"7F000000-0000-0000-9904-000000000000","element-6066-11e4-a52e-4f735466cecf":"7F000000-0000-0000-9904-000000000000"},"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:01:10:485 [XCUITestDriver@1407 (c4c8fe94)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7F000000-0000-0000-9904-000000000000","ELEMENT":"7F000000-0000-0000-9904-000000000000"}
+2023-06-27 10:01:10:486 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element 200 250 ms - 137
+2023-06-27 10:01:10:486 [HTTP] 
+2023-06-27 10:01:10:491 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/7F000000-0000-0000-9904-000000000000/click
+2023-06-27 10:01:10:492 [HTTP] {"id":"7F000000-0000-0000-9904-000000000000"}
+2023-06-27 10:01:10:492 [XCUITestDriver@1407 (c4c8fe94)] Driver proxy active, passing request on via HTTP proxy
+2023-06-27 10:01:10:492 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'proxyReqRes'
+2023-06-27 10:01:10:493 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session/c4c8fe94-aede-470b-be03-b2524046122a/element/7F000000-0000-0000-9904-000000000000/click' to command name 'click'
+2023-06-27 10:01:10:493 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/7F000000-0000-0000-9904-000000000000/click] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element/7F000000-0000-0000-9904-000000000000/click] with body: {"id":"7F000000-0000-0000-9904-000000000000"}
+2023-06-27 10:01:13:531 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":null,"sessionId":"42857ED4-A45C-4F63-AE02-7B6316A46639"}
+2023-06-27 10:01:13:531 [XCUITestDriver@1407 (c4c8fe94)] Replacing sessionId 42857ED4-A45C-4F63-AE02-7B6316A46639 with c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:01:13:532 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element/7F000000-0000-0000-9904-000000000000/click 200 3040 ms - 65
+2023-06-27 10:01:13:532 [HTTP] 
+2023-06-27 10:01:15:542 [HTTP] --> POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element
+2023-06-27 10:01:15:543 [HTTP] {"using":"accessibility id","value":"Delete"}
+2023-06-27 10:01:15:543 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.findElement() with args: ["accessibility id","Delete","c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:01:15:543 [XCUITestDriver@1407 (c4c8fe94)] Executing command 'findElement'
+2023-06-27 10:01:15:543 [XCUITestDriver@1407 (c4c8fe94)] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2023-06-27 10:01:15:543 [XCUITestDriver@1407 (c4c8fe94)] Waiting up to 0 ms for condition
+2023-06-27 10:01:15:545 [XCUITestDriver@1407 (c4c8fe94)] Matched '/element' to command name 'findElement'
+2023-06-27 10:01:15:546 [XCUITestDriver@1407 (c4c8fe94)] Proxying [POST /element] to [POST http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639/element] with body: {"using":"accessibility id","value":"Delete"}
+2023-06-27 10:01:15:690 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'accessibility id', value 'Delete'","traceback":"(\n\t0   WebDriverAgentLib                   0x0000000106a356ec FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x0000000106a3551c +[FBFindElementCommands handleFindElement:] + 312\n\t2   WebDriverAgentLib                   0x00000001069fa5a4 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x00000001069e65b4 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 404\n\t4   WebDriverAgentLib                   0x0000000106a1c280 -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x0000000106a1cd70 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x00000001a80f6eac BB347F0E-F21C-3607-82E6-C8D750FDBF8C + 16044\n\t7   libdispatch.dylib                   ...
+2023-06-27 10:01:15:692 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2023-06-27 10:01:15:701 [XCUITestDriver@1407 (c4c8fe94)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2023-06-27 10:01:15:701 [XCUITestDriver@1407 (c4c8fe94)]     at XCUITestDriver.doNativeFind (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:129:11)
+2023-06-27 10:01:15:701 [XCUITestDriver@1407 (c4c8fe94)]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-27 10:01:15:701 [XCUITestDriver@1407 (c4c8fe94)]     at XCUITestDriver.findNativeElementOrElements (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:89:10)
+2023-06-27 10:01:15:702 [XCUITestDriver@1407 (c4c8fe94)]     at XCUITestDriver.findElOrEls (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:22:12)
+2023-06-27 10:01:15:702 [XCUITestDriver@1407 (c4c8fe94)]     at XCUITestDriver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:65:14)
+2023-06-27 10:01:15:702 [XCUITestDriver@1407 (c4c8fe94)]     at XCUITestDriver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:12:12)
+2023-06-27 10:01:15:703 [HTTP] <-- POST /session/c4c8fe94-aede-470b-be03-b2524046122a/element 404 160 ms - 1052
+2023-06-27 10:01:15:703 [HTTP] 
+2023-06-27 10:01:15:713 [HTTP] --> DELETE /session/c4c8fe94-aede-470b-be03-b2524046122a
+2023-06-27 10:01:15:713 [HTTP] {}
+2023-06-27 10:01:15:713 [XCUITestDriver@1407 (c4c8fe94)] Calling AppiumDriver.deleteSession() with args: ["c4c8fe94-aede-470b-be03-b2524046122a"]
+2023-06-27 10:01:15:713 [AppiumDriver@1658] Event 'quitSessionRequested' logged at 1687860075713 (15:31:15 GMT+0530 (India Standard Time))
+2023-06-27 10:01:15:713 [AppiumDriver@1658] Removing session c4c8fe94-aede-470b-be03-b2524046122a from our master session list
+2023-06-27 10:01:15:714 [XCUITestDriver@1407 (c4c8fe94)] Matched '/session/c4c8fe94-aede-470b-be03-b2524046122a' to command name 'deleteSession'
+2023-06-27 10:01:15:715 [XCUITestDriver@1407 (c4c8fe94)] Proxying [DELETE /session/c4c8fe94-aede-470b-be03-b2524046122a] to [DELETE http://127.0.0.1:10001/session/42857ED4-A45C-4F63-AE02-7B6316A46639] with no body
+2023-06-27 10:01:16:748 [XCUITestDriver@1407 (c4c8fe94)] Got response with status 200: {"value":null,"sessionId":null}
+2023-06-27 10:01:16:748 [DevCon Factory] Releasing connections for 00008030-000A2C6A1AFB802E device on any port number
+2023-06-27 10:01:16:748 [DevCon Factory] Found cached connections to release: ["00008030-000A2C6A1AFB802E:10001"]
+2023-06-27 10:01:16:749 [DevCon Factory] Releasing the listener for '00008030-000A2C6A1AFB802E:10001'
+2023-06-27 10:01:16:749 [iProxy@00008030:10001] Closing the connection
+2023-06-27 10:01:16:749 [DevCon Factory] Cached connections count: 0
+2023-06-27 10:01:16:750 [XCUITestDriver@1407 (c4c8fe94)] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2023-06-27 10:01:16:751 [AppiumDriver@1658] Event 'quitSessionFinished' logged at 1687860076751 (15:31:16 GMT+0530 (India Standard Time))
+2023-06-27 10:01:16:751 [AppiumDriver@1658] Received response: null
+2023-06-27 10:01:16:751 [AppiumDriver@1658] But deleting session, so not returning
+2023-06-27 10:01:16:751 [AppiumDriver@1658] Responding to client with driver.deleteSession() result: null
+2023-06-27 10:01:16:752 [HTTP] <-- DELETE /session/c4c8fe94-aede-470b-be03-b2524046122a 200 1039 ms - 14
+2023-06-27 10:01:16:752 [HTTP] 
+2023-06-27 10:01:16:769 [Appium] Received SIGTERM - shutting down
+2023-06-27 10:01:16:770 [AppiumDriver@1658] There are no active sessions for cleanup
+2023-06-27 10:01:16:776 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:923:11)
+    at Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:131:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:165:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:154:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.<computed> [as info] (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at EventEmitter.<anonymous> (/opt/homebrew/lib/node_modules/appium/lib/logsink.js:230:24)
+    at EventEmitter.emit (node:events:512:28)
+    at EventEmitter.<anonymous> (/opt/homebrew/lib/node_modules/appium/node_modules/npmlog/lib/log.js:247:8)
+    at EventEmitter.<anonymous> (/opt/homebrew/lib/node_modules/appium/node_modules/npmlog/lib/log.js:377:23)
+    at Object.wrappedLogger.<computed> [as info] (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:106:24)
+    at process.onSignal (/opt/homebrew/lib/node_modules/appium/lib/main.js:359:14)
+    at Object.onceWrapper (node:events:627:26)
+    at process.emit (node:events:524:35)
+2023-06-27 10:01:16:777 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:923:11)
+    at Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:131:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:165:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:154:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:512:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/opt/homebrew/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2023-06-27 10:01:16:778 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:923:11)
+    at Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:131:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:165:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:154:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:512:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/opt/homebrew/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2023-06-27 10:01:16:779 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:923:11)
+    at Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:131:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:165:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:154:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:512:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/opt/homebrew/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)
+2023-06-27 10:01:16:780 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:923:11)
+    at Socket._write (node:net:935:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/opt/homebrew/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at Console.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.ondata (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:524:35)
+    at addChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:131:32)
+    at DerivedLogger._transform (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:165:10)
+    at DerivedLogger.Transform._write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:154:83)
+    at doWrite (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:389:139)
+    at writeOrBuffer (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:380:5)
+    at DerivedLogger.Writable.write (/opt/homebrew/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:301:11)
+    at DerivedLogger.log (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/opt/homebrew/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:512:28)
+    at processEmit (/opt/homebrew/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/opt/homebrew/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/codeprismtechnologies/.appium/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/codeprismtechnologies/.appium/node_modules/appium-safari-driver/node_modules/source-map-support/source-map-support.js:516:21)

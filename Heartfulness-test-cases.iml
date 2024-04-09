@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Android_iQOO" />
+      <excludeFolder url="file://$MODULE_DIR$/Android_Android" />
+    </content>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="2bdf5e0f-6c36-40c2-b756-f7084a67450f" />
+  </component>
+</module>
